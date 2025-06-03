@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #f0f, #0ff, #00f);
+  background: linear-gradient(
+    135deg,
+    #ff9a9e,
+    #fad0c4,
+    #b8b1af,
+    #6540bc,
+    #5dffc4,
+    #e302a3
+  );
+  background-size: 400% 400%;
+  background-repeat: no-repeat;
+  animation: gradientShift 5s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

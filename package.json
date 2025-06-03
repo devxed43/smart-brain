@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "particles-bg": "^2.5.5",
+    "react-parallax-tilt": "^1.7.296",
+    "tachyons": "^4.12.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
